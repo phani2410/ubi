@@ -51,6 +51,15 @@ public class DisplayHomePage {
 		}
 	}
 
+	
+	/**
+	 * To login from home page.
+	 * checks the user details and if valid redirects to homeloginsuccess JSP page
+	 * @param wallet
+	 * @param model
+	 * @param request
+	 * @return
+	 */
 	@RequestMapping("/homelogin")
 	public String submitHomeLogin(@ModelAttribute Userlog wallet, Model model, HttpServletRequest request) {
 

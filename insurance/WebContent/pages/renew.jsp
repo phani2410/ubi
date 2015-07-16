@@ -59,7 +59,7 @@
 	%>
   </span></button>
    	 <ul class="dropdown-menu">
-      	<li><a style="color:#2f889a;" href="#">My Profile</a></li>
+      	<li><a style="color:#2f889a;" href="userprofile">My Profile</a></li>
 		<li><a style="color:#2f889a;" href="tohome">Go to Home</a></li>
      	 <li><a style="color:#2f889a;" href="#">About</a></li>
      	 <li><a style="color:#2f889a;" href="#">Help</a></li>
@@ -93,7 +93,7 @@
 				-->
 				<ul>
 					<li class="sky-tab-content-1">					
-						<div id="wrapper1" style="margin-left:15em">
+						<div id="wrapper1" style="margin-left:25%">
         <form action="../WebApp/renewpolicy" method="post">
             <fieldset>
                 <legend>Renew Non BPBL Policy</legend>
@@ -129,7 +129,7 @@
 					</li>
 					
 					<li class="sky-tab-content-2">
-						<div id="wrapper" style="margin-left:15em">
+						<div id="wrapper" style="margin-left:25%">
         <form action="registerpolicy" method="post">
             <fieldset>
                 <legend>Register a New Policy</legend>
@@ -193,7 +193,7 @@
 		</div>
 		
 		
-		<div class="body1" style="margin-right:2em;margin-top:2em;width:15%;float:right;padding:5px;color:-">
+		<div class="body2" style="margin-right:2%;width:15%;float:right;padding:1px;">
 			<aside class="right">
 			
 				<!-- mega menu -->
@@ -275,7 +275,7 @@
 					
 					<!-- portfolio -->
 					<li aria-haspopup="true">
-						<a href="userpremium"><i class="fa fa-inr"></i>Insurance Premium</a>
+						<a href="userpremium"><i class="fa fa-inr"></i>Premium</a>
 						<!--
 						<div class="grid-container3">
 							<ul>
@@ -290,8 +290,8 @@
 					<!--/ portfolio -->
 					
 					<!-- blog -->
-					<li>
-						<a href="renew"><i class="fa fa-edit"></i>Renew / Register Policy</a>
+					<li  style="background:#2f889a;color:white">
+						<a href="renew"><span style="color:white"><i class="fa fa-edit"></i>Renew / Register</span></a>
 					</li>
 					<!--/ blog -->
 					

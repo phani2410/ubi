@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.psl.insurance.util.HibernateUtil;
 import com.psl.model.RegisterPolicy;
 import com.psl.model.RenewPolicy;
+import com.psl.model.Userlog;
 
 
 @Controller
@@ -32,6 +33,12 @@ public class DisplayLoggedinPage {
 		return "vehiclereport";
 	}
 	
+	@RequestMapping("/userprofile")
+	public String userProfile()
+	{
+		return "userprofile";
+	}
+	
 	@RequestMapping("/claimhistory")
 	public String claimHistory()
 	{
@@ -41,7 +48,7 @@ public class DisplayLoggedinPage {
 	@RequestMapping("/drivex")
 	public String driveX()
 	{
-		return "drivex";
+		return "drivexpage";
 	}
 	
 	@RequestMapping("/userpremium")
@@ -78,6 +85,7 @@ public class DisplayLoggedinPage {
 				b = false;
 			}
 			if(b == true){
+				HibernateUtil.getHibernateTemplate().save(r);
 				return "renewalsuccess";
 			}
 			else{
@@ -89,7 +97,7 @@ public class DisplayLoggedinPage {
 	}
 	
 	@RequestMapping("/registerpolicy")
-	public String registerpolicy(@ModelAttribute RegisterPolicy register){
+	public String registerpolicy(@ModelAttribute RegisterPolicy register, HttpServletRequest request){
 		boolean b = false;
 		RegisterPolicy r = new RegisterPolicy();
 		r.setMaker(register.getMaker());
@@ -110,6 +118,10 @@ public class DisplayLoggedinPage {
 				b = false;
 			}
 			if(b){
+				//HttpSession session = request.getSession();
+				//Userlog u = (Userlog)session.getAttribute("w1");
+				HibernateUtil.getHibernateTemplate().save(r);
+				
 				return "registrationsuccess";
 			}
 			else{

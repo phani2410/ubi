@@ -13,6 +13,7 @@ import javax.persistence.Table;
 
 /**
  * 
+ *  @author vejendla_bharath
  */
 @Entity
 @Table(name = "user_log")

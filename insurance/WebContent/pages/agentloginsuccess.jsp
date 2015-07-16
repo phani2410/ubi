@@ -28,6 +28,17 @@
     <link rel="stylesheet" href="../css/footer-distributed-with-address-and-phones.css">
 	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  
+  
+  <style>
+  body { 
+    background-image: url('../img/bgpic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    top:0;
+    left:0;
+}</style>
   </head>
   
   <body>
@@ -52,7 +63,7 @@
 	%>
   </span></button>
    	 <ul class="dropdown-menu">
-      	<li><a style="color:#2f889a;" href="#">My Profile</a></li>
+      	<li><a style="color:#2f889a;" href="agentprofile">My Profile</a></li>
      	 <li><a style="color:#2f889a;" href="#">About</a></li>
      	 <li><a style="color:#2f889a;" href="#">Help</a></li>
      	  <li><a style="color:#2f889a;" href="homesignout">Sign Out</a></li>
@@ -61,36 +72,12 @@
 	<div style="float:right;margin-top:0.35em;margin-right:23%;font-size:1.3em;color:#2f889a">
 			<h2>Better Premium, Better Life</h2>
 		</div>
-		<img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;">
+		<img src="../img/shareinsights.jpg" style="padding-left:5%;padding-top:1em;">
 
  </header>
  
   <div>
-	<div style=""width:100%">
-		<div style=" width:40%;float:left;padding:10px;text-align:right">
 	
-	<img style="height:100px;width:100px; border-radius:50%" src="../img/userpic.png">
-	
-		</div>
-		<div style="width:50%; height:100px;float:right;padding:10px;">
-		<div style="margin-top:1em;color:#2f889a">
-			<strong>Username: </strong>
-	<span><% out.println(w.getUsername().trim());%></span>
-	<br />
-	<strong>
-	Name: </strong>
-	<span><!--  out.println(w.getName().trim());--></span>
-	<br />
-	<strong>
-	Agent Id: </strong>
-	<span>1234567890</span><!-- out.println(w.getUsername().trim()); -->
-	<br />
-	<strong>
-	Email: </strong>
-	<span><%out.println(w.getEmail().trim()); %></span>
-		</div>
-		</div>
-     </div> 
 
 	
 

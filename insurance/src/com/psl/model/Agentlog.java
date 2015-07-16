@@ -45,4 +45,7 @@ public class Agentlog {
 		this.email = email;
 	}
 	
+	public int getAid(){
+		return aid;
+	}
 }

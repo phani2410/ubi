@@ -2,10 +2,19 @@ package com.psl.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+/**
+ * 
+ * @author vejendla_bharath
+ *
+ */
 @Controller
 public class DisplayAgentPage {
 
+	
+	/**
+	 * 
+	 * @return
+	 */
 	@RequestMapping("/agentvehiclereport")
 	public String agentVehicleReport()
 	{
@@ -28,6 +37,12 @@ public class DisplayAgentPage {
 	public String toAgentHome()
 	{
 		return "agentloginsuccess";
+	}
+	
+	@RequestMapping("/agentprofile")
+	public String toAgentProfile()
+	{
+		return "agentprofile";
 	}
 	
 }

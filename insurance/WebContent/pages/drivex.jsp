@@ -34,7 +34,7 @@
   
   <!-- for small side tabs -->
   <script src="../js/tabcontent.js" type="text/javascript"></script>
-    <link href="../css/tabcontent.css" rel="stylesheet" type="text/css" />
+    <link href="../css/tabcontent1.css" rel="stylesheet" type="text/css" />
 
   </head>
    <body>
@@ -62,7 +62,7 @@
 	%>
   </span></button>
    	 <ul class="dropdown-menu">
-      	<li><a style="color:#2f889a;" href="#">My Profile</a></li>
+      	<li><a style="color:#2f889a;" href="userprofile">My Profile</a></li>
 		<li><a style="color:#2f889a;" href="tohome">Go to Home</a></li>
      	 <li><a style="color:#2f889a;" href="#">About</a></li>
      	 <li><a style="color:#2f889a;" href="#">Help</a></li>

@@ -3,6 +3,21 @@
 /**/
 /* defaults */
 /**/
+
+@media screen and (min-width:768px) {
+	.body2{
+	
+		margin-top:3%;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.body2{
+	display:none;
+		margin-top:10%;
+	}
+}
+
 .sky-mega-menu,
 .sky-mega-menu * {
 	margin: 0;
@@ -44,11 +59,11 @@
 	font-size: 13px;
 	line-height: 45px;
 	text-align: left;
-	white-space: nowrap;
+	
 }
 .sky-mega-menu li a {
 	display: block;
-	padding: 0 20px;
+	padding: 0 5px;
 	text-decoration: none;
 	color: #2f889a;
 	transition: background 0.4s, color 0.4s;

@@ -45,6 +45,17 @@
 
 	<title>Usage Based Insurance</title>
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 </head>
 <body>
 	<header role="banner">
@@ -92,7 +103,7 @@
                 <source src="../img/7.mp4" type="video/mp4">
             </video>
 			<div class="overlay">
-        <div style="width:50%;padding:1em;float:left">
+        <div class="leftname">
         
             <div class="columns">
                                 <h1>Smarter.<br/> Driving.<br/> Every Day.</h1>
@@ -101,7 +112,7 @@
             </div>
           
           </div>
-          <div style="width:50%;padding:1em;float:right">  
+          <div class="rightname">  
              <div class="columns1">
                                 <h1>Saving.<br/> Larger.<br/> Every Day.</h1>
                                 <h2>Pay smarter, lesser and more reasonable.</h2>
@@ -209,15 +220,7 @@
 			  </a>
             </figure>
           </li>
-		  <!--
-          <li data-event='Modex'>
-            <figure>
-              <a href="#advantages"><img style="border-radius:50%" src="img/advantages.png" alt="">
-              <figcaption><h3>Advantages</h3></figcaption>
-			  </a>
-            </figure>
-          </li>
-         -->
+		  
         </ul>
       </nav>
 	</div>
@@ -242,17 +245,7 @@
 	
 	
 	
-	<!--
-	<ul>
-		<li><strong><h3>Drive Smarter </h3></strong>Give your car a voice, unlocking diagnostics and real-time data</li>
-		<li><strong><h3>Save Money </h3></strong>Save money on gas, repairs, maintenance and improve resale value</li>
-		<li><strong><h3>Pay Smarter </h3></strong>Pay as you Drive, and based on your vehicle conditions</li>
-		<li><strong><h3>Take Control </h3></strong>Keep safe with remote alerts, and insights into maintenance needs and recalls</li>
-		<li><strong><h3>Drive Green </h3></strong>Improve your vehicle's fuel efficiency and your driving habits</li>
-		<li><strong><h3>Have Fun With It </h3></strong>Take pole position on the leaderboard, win rewards and share road trips</li>
-		<li><strong><h3>Engine Light </h3></strong>Decode the 'Check Engine' alert, get cost estimates and find mechanics</li>
-	</ul>
-	-->
+	
 	</div>
 	<div id="forinsurers"  style="text-align:center">
 	<h1 style="color:#2f889a">For Insurers</h1>
@@ -342,7 +335,7 @@
     <div id="tab3">
 		<div align="center">"
 	
-		<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="1080px" height="607px" src="https://prezi.com/embed/2haiqu9gkm0c/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=eyJleHBlcmltZW50cyI6eyJjdGEiOlstMiwwXSwiZml0LWxvYWR1aSI6Wy0yLDBdfSwicGFnZV92aWV3X2lkIjoiYmU2YzU2YzBiY2NiY2U0YyJ9&amp;landing_sign=AoJQrRCQsd12qRMvVIbX41CqGVxaKqw2kXSJRZd4sH0%253D#"></iframe>
+		<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="75%" height="607px" src="https://prezi.com/embed/2haiqu9gkm0c/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=eyJleHBlcmltZW50cyI6eyJjdGEiOlstMiwwXSwiZml0LWxvYWR1aSI6Wy0yLDBdfSwicGFnZV92aWV3X2lkIjoiYmU2YzU2YzBiY2NiY2U0YyJ9&amp;landing_sign=AoJQrRCQsd12qRMvVIbX41CqGVxaKqw2kXSJRZd4sH0%253D#"></iframe>
 
 		</div>
 			<footer class="footer-distributed">

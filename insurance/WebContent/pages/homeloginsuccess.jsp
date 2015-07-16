@@ -18,16 +18,24 @@
      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <style>
-    .bordercol{
-    border-top: 1px solid #2f889a;
-    }</style>
+    
     
     <link href="../css/style3.css" rel="stylesheet">
     
     <link rel="stylesheet" href="../css/footer-distributed-with-address-and-phones.css">
 	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <!--  -->
+  <style>
+  body { 
+    background-image: url('../img/bgpic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    top:0;
+    left:0;
+}</style>
+
   </head>
   
   <body>
@@ -52,7 +60,7 @@
 	%>
   </span></button>
    	 <ul class="dropdown-menu">
-      	<li><a style="color:#2f889a;" href="#">My Profile</a></li>
+      	<li><a style="color:#2f889a;" href="userprofile">My Profile</a></li>
      	 <li><a style="color:#2f889a;" href="#">About</a></li>
      	 <li><a style="color:#2f889a;" href="#">Help</a></li>
      	  <li><a style="color:#2f889a;" href="homesignout">Sign Out</a></li>
@@ -65,36 +73,13 @@
 
  </header>
  <div>
-	<div style=""width:100%">
-		<div style=" width:40%;float:left;padding:10px;text-align:right">
-	
-	<img style="height:100px;width:100px; border-radius:50%" src="../img/userpic.png">
-	
-		</div>
-		<div style="width:50%; height:100px;float:right;padding:10px;">
-		<div style="margin-top:1em;color:#2f889a">
-			<strong>Username: </strong>
-	<span><% out.println(w.getUsername().trim());%></span>
-	<br />
-	<strong>
-	Name: </strong>
-	<span><% out.println(w.getName().trim());%></span>
-	<br />
-	<strong>
-	Insurance Id: </strong>
-	<span>1234567890</span><!-- out.println(w.getUsername().trim()); -->
-	<br />
-	<strong>
-	Email: </strong>
-	<span><% out.println(w.getEmail().trim());%></span>
-		</div>
-		</div>
-     </div> 
+
 
 	
 
 
-<div class="bordercol" style="width:100%;float:left;color:#2f889a;" class="events_splash" class="clearfix">
+<div style="width:100%;float:left;color:#2f889a;" class="events_splash" class="clearfix">
+      <div id="background"></div>
       <div style="opacity:1.0">
       <nav id="events_list" class='clearfix'>
         <ul>

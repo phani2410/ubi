@@ -7,6 +7,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
  <html>
   <head>
+  
     <title>Usage Based Insurance</title>
 <link rel="shortcut icon" href="../img/persistent.jpg" type="image/png">
 
@@ -70,10 +71,10 @@
     	</ul>
   	</div>
 	
-	<div style="float:right;margin-top:0.5em;margin-right:20%;font-size:1.3em;color:#2f889a">
+	<div class="bpbl">
 			<h2>Better Premium, Better Life</h2>
 		</div>
-		<img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;">
+		<img src="../img/shareinsights.jpg" class="shareimg">
 	</header>	
 		
 	
@@ -103,7 +104,7 @@
 				
 <ul>
 <li class="sky-tab-content-1">					
-	<div style="float:center;margin-left:7em">
+	<div style="float:center;margin-left:5%">
        
             <fieldset>
              <legend>Aurora</legend>
@@ -192,7 +193,7 @@
 					</li>
 					
 					<li class="sky-tab-content-2">
-						<div style="float:center;margin-left:7em">
+						<div style="float:center;margin-left:5%">
         <fieldset>
                 <legend>WagonR</legend>
              
@@ -283,7 +284,7 @@
 </li>
 	
 	<li class="sky-tab-content-3">					
-	<div style="float:center;margin-left:7em">
+	<div style="float:center;margin-left:5%">
        
             <fieldset>
              <legend>Aurora</legend>
@@ -372,7 +373,7 @@
 					</li>
 	
 	<li class="sky-tab-content-4">					
-	<div style="float:center;margin-left:7em">
+	<div style="float:center;margin-left:5%">
        
             <fieldset>
              <legend>Aurora</legend>
@@ -460,7 +461,7 @@
 					
 					</li>
 	<li class="sky-tab-content-5">					
-	<div style="float:center;margin-left:7em">
+	<div style="float:center;margin-left:5%">
        
             <fieldset>
              <legend>Aurora</legend>
@@ -548,7 +549,7 @@
 					
 					</li>
 					<li class="sky-tab-content-5">					
-	<div style="float:center;margin-left:7em">
+	<div style="float:center;margin-left:5%">
        
             <fieldset>
              <legend>Aurora</legend>
@@ -644,7 +645,7 @@
 			
 		</div>
 		
-		<div class="body1" style="margin-right:2em;margin-top:2em;width:15%;float:right;padding:5px;">
+		<div class="body2" style="margin-right:2%;width:15%;float:right;padding:1px;">
 			<aside class="right">
 			
 				<!-- mega menu -->

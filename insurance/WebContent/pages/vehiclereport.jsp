@@ -62,7 +62,7 @@
 	%>
   </span></button>
    	 <ul class="dropdown-menu">
-      	<li><a style="color:#2f889a;" href="#">My Profile</a></li>
+      	<li><a style="color:#2f889a;" href="userprofile">My Profile</a></li>
 		<li><a style="color:#2f889a;" href="tohome">Go to Home</a></li>
      	 <li><a style="color:#2f889a;" href="#">About</a></li>
      	 <li><a style="color:#2f889a;" href="#">Help</a></li>
@@ -98,7 +98,7 @@
 				
 <ul>
 <li class="sky-tab-content-1">					
-	<div style="float:center;margin-left:7em">
+	<div style="float:center;margin-left:5%">
        
             <fieldset>
              <legend>Aurora</legend>
@@ -179,13 +179,13 @@
   </tr> 
 </table>
             </fieldset>  <br/><br />  
-       		 <a href="#" style="text-decoration:none;background-color:#2f889a;color:white;border-radius:0px;font-size:15px;margin-left:10em;padding:1em 5em 1em 5em;">Send Report to WorkShop</a>
+       		 <a href="#" style="text-decoration:none;background-color:#2f889a;color:white;border-radius:0px;font-size:15px;margin-left:5em;padding:1em 2em 1em 2em;">Send Report to WorkShop</a>
     			</div>
 					
 					</li>
 					
 					<li class="sky-tab-content-2">
-						<div style="float:center;margin-left:7em">
+						<div style="float:center;margin-left:5%">
         <fieldset>
                 <legend>WagonR</legend>
              
@@ -268,7 +268,7 @@
 </tr>
 </table>
 </fieldset> <br/><br />  
-       		 <a href="#" style="text-decoration:none;background-color:#2f889a;color:white;border-radius:0px;font-size:15px;margin-left:10em;padding:1em 5em 1em 5em;">Send Report to WorkShop</a>
+       		 <a href="#" style="text-decoration:none;background-color:#2f889a;color:white;border-radius:0px;font-size:15px;margin-left:5em;padding:1em 2em 1em 2em;">Send Report to WorkShop</a>
     			          
 
 </div>
@@ -282,7 +282,7 @@
 			
 		</div>
 		
-		<div class="body1" style="margin-right:2em;margin-top:2em;width:15%;float:right;padding:5px;">
+		<div class="body2" style="margin-right:2%;width:15%;float:right;padding:1px;">
 			<aside class="right">
 			
 				<!-- mega menu -->
@@ -294,93 +294,29 @@
 					<!--/ home -->
 					
 					<!-- about -->
-					<li aria-haspopup="true">
-						<a href="vehiclereport"><i class="fa fa-newspaper-o"></i>Vehicle Report</a>
-						<!--
-						<div class="grid-container3">
-							<ul>
-								<li><a href="#"><i class="fa fa-globe"></i>Mission</a></li>
-								<li aria-haspopup="true">
-									<a href="#"><i class="fa fa-group"></i>Our Team</a>
-									
-									<div class="grid-container3">
-										<ul>
-											<li aria-haspopup="true">
-												<a href="#"><i class="fa fa-male"></i>Markus Fisher</a>
-												<div class="grid-container3">
-													<ul>
-														<li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
-														<li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
-														<li><a href="#"><i class="fa fa-comments"></i>Contacts</a></li>
-													</ul>
-												</div>
-											</li>
-											<li aria-haspopup="true">
-												<a href="#"><i class="fa fa-female"></i>Leyla Sparks</a>
-												<div class="grid-container3">
-													<ul>
-														<li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
-														<li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
-														<li><a href="#"><i class="fa fa-comments"></i>Contacts</a></li>
-													</ul>
-												</div>
-											</li>
-											<li aria-haspopup="true">
-												<a href="#"><i class="fa fa-male"></i>Gleb Ismailov</a>
-												<div class="grid-container3">
-													<ul>
-														<li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
-														<li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
-														<li><a href="#"><i class="fa fa-comments"></i>Contacts</a></li>
-													</ul>
-												</div>
-											</li>
-											<li><a href="#"><i class="fa fa-female"></i>Viktoria Gibbers</a>
-										</li>
-										</ul>
-									</div>
-								</li>
-								<li><a href="#"><i class="fa fa-trophy"></i>Rewards</a></a></li>
-								<li><a href="#"><i class="fa fa-certificate"></i>Certificates</a></a></li>
-							</ul>
-						</div>-->
+					<li aria-haspopup="true" style="background:#2f889a;color:white">
+						<a href="vehiclereport"><span style="color:white;"><i class="fa fa-newspaper-o"></i>Vehicle Report</span></a>
+						
 					</li>
 					<!--/ about -->
 					
 					<!-- news -->
 					<li aria-haspopup="true">
 						<a href="claimhistory"><i class="fa fa-book"></i>Claim History</a>
-						<!--
-						<div class="grid-container3">
-							<ul>
-								<li><a href="#"><i class="fa fa-check"></i>Company</a></li>
-								<li><a href="#"><i class="fa fa-check"></i>Products</a></li>
-								<li><a href="#"><i class="fa fa-check"></i>Specials</a></li>
-							</ul>
-						</div>
-						-->
+						
 					</li>
 					<!--/ news -->
 					
 					<!-- portfolio -->
 					<li aria-haspopup="true">
-						<a href="userpremium"><i class="fa fa-inr"></i>Insurance Premium</a>
-						<!--
-						<div class="grid-container3">
-							<ul>
-								<li><a href="#"><i class="fa fa-lemon-o"></i>Logos</a></li>
-								<li><a href="#"><i class="fa fa-globe"></i>Websites</a></li>
-								<li><a href="#"><i class="fa fa-th-large"></i>Branding</a></li>
-								<li><a href="#"><i class="fa fa-picture-o"></i>Illustrations</a></li>
-							</ul>
-						</div>
-						-->
+						<a href="userpremium"><i class="fa fa-inr"></i>Premium</a>
+					
 					</li class="right">
 					<!--/ portfolio -->
 					
 					<!-- blog -->
 					<li>
-						<a href="renew"><i class="fa fa-edit"></i>Renew / Register Policy</a>
+						<a href="renew"><i class="fa fa-edit"></i>Renew / Register</a>
 					</li>
 					<!--/ blog -->
 					

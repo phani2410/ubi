@@ -39,6 +39,34 @@ input::-ms-clear, textarea::-ms-clear {
   display: none;
 }
 
+@media only screen and (min-width:500px) and (max-width: 1000px){
+	.shareimg{
+	display:none;
+	}
+	
+	.bpbl{
+	float:right;
+	
+	font-size:1.3em;
+	color:#2f889a;
+	}
+}
+
+@media only screen and (min-width:1000px){
+	.shareimg{
+	padding-left:4.5em;
+	padding-top:1em;
+	}
+	
+	.bpbl{
+	float:right;
+	margin-top:0.5em;
+	margin-right:20%;
+	font-size:1.3em;
+	color:#2f889a;
+	}
+}
+
 /* -------------------------------- 
 
 Main components 
@@ -98,6 +126,9 @@ header[role=banner]::after {
   display: table;
   clear: both;
 }
+
+
+
 @media only screen and (min-width: 768px) {
   header[role=banner] {
     height: 80px;
@@ -553,4 +584,34 @@ xsigin/signup popup
 
 #cd-login.is-selected, #cd-signup.is-selected, #cd-reset-password.is-selected {
   /*display: block;*/
+}
+
+
+
+
+.leftname{
+width:50%;
+padding:1em;
+float:left;	
+	}
+
+	.rightname{
+	 width:50%;
+	 padding:1em;
+	 float:right;
+	}
+	
+@media only screen and (max-width: 600px){
+	#iframe_container{
+		width:100%;
+		height:100%;
+	}
+	
+	.leftname{
+	display:none;
+	}
+	
+	.rightname{
+	display:none;
+	}
 }

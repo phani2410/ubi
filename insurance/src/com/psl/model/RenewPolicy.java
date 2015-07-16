@@ -3,27 +3,36 @@
  */
 package com.psl.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * @author vejendla_bharath
  *
  */
 
-
-
+@Entity
+@Table(name = "renewal_table")
 public class RenewPolicy {
-
+	@Column(name = "policynumber")
 	private String policynumber;
-	
+	@Column(name = "policytype")
 	private String policytype;
-	
+	@Column(name = "insurancecompany")
 	private String insurancecompany;
-	
+	@Column(name = "manufacturer")
 	private String manufacturer;
-	
+	@Column(name = "model")
 	private String model;
-
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)	
+	private int renid;
+		
 	public String getPolicynumber() {
 		return policynumber;
 	}

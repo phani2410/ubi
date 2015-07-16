@@ -2,10 +2,10 @@
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
- <html>
-  <head>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Usage Based Insurance</title>
 <link rel="shortcut icon" href="../img/persistent.jpg" type="image/png">
 
@@ -21,6 +21,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+
   <!-- css for tabs and right menu -->
   
 	<link rel="stylesheet" href="../css/demo1.css">
@@ -29,18 +30,23 @@
 		<link rel="stylesheet" href="../css/formstyle.css">
 		<link rel="stylesheet" href="../css/sky-mega-menu.css">
 	
-<!-- for footer -->
+	
+	 <!-- for small side tabs -->
+  <script src="../js/tabcontent.js" type="text/javascript"></script>
+    <link href="../css/tabcontent.css" rel="stylesheet" type="text/css" />
+	
+	<!-- for footer -->
   <link rel="stylesheet" href="../css/footer-distributed-with-address-and-phones.css">
 	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
   
 	
-  </head>
-   <body>
+
+</head>
+<body>
   <%
   	com.psl.model.Userlog w = (com.psl.model.Userlog)session.getAttribute("w1");
   %>
-
 <header role="banner">
 		<div id="cd-logo">
             <a href="http://www.persistent.com"><img src="../img/persistent.jpg" alt="Logo"></a>
@@ -75,182 +81,136 @@
 		<img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;">
 	</header>	
 		
-	
- 
- <div class="body1" style="margin-left:2em;margin-top:2em;width:80%;float:left;padding:5px;">
 		
-			<!-- tabs -->
-			<div class="sky-tabs sky-tabs-pos-left sky-tabs-anim-flip sky-tabs-response-to-icons">
-				<input type="radio" name="sky-tabs" checked id="sky-tab1" class="sky-tab-content-1">
-				<label for="sky-tab1"><span><span><i class="fa fa-list-ul"></i>Aurora</span></span></label>
-				
-				<input type="radio" name="sky-tabs" id="sky-tab2" class="sky-tab-content-2">
-				<label for="sky-tab2"><span><span><i class="fa fa-list-ul"></i>WagonR</span></span></label>
-				<!--
-				<input type="radio" name="sky-tabs" id="sky-tab3" class="sky-tab-content-3">
-				<label for="sky-tab3"><span><span><i class="fa fa-cogs"></i>Einstein</span></span></label>
-				
-				<input type="radio" name="sky-tabs" id="sky-tab4" class="sky-tab-content-4">
-				<label for="sky-tab4"><span><span><i class="fa fa-globe"></i>Newton</span></span></label>
-				-->
-				
-				
-<ul>
-<li class="sky-tab-content-1">					
-	<div id="wrapper1" style="margin-left:6%">
-        <form action="" method="post">
-            <fieldset>
-             <legend>Aurora</legend>
-             <table style="width:100%">
-             <tr><td style="font-family: inherit; font-style:inherit; ; font-size: 1.3em; ">Claim 1</td></tr>
-  <tr>
-    <th> <label for="dummy1">Content</label></th>
-    <th> <label for="dummy2">Value</label></th>		
-    
-  </tr>
-
-  <tr>
-  <td>Claim Id</td>
-  <td>1102</td>
-  </tr>   
-  
-   <tr>
-  <td>Policy Number</td>
-  <td>A155532</td>
-  </tr> 
-
-   <tr>
-  <td>Claimed Amount</td>
-  <td>50000</td>
-  </tr> 
-   
-  <tr>
-  <td>Passed Amount</td>
-  <td>50000</td>
-  </tr> 
-  
-  </table>
-
-
-<br><br>
-
-<table style="width:100%">
-             <tr><td style="font-family: inherit; font-style:inherit; ; font-size: 1.3em; ">Claim 2</td></tr>
-  <tr>
-    <th> <label for="dummy1">Content</label></th>
-    <th> <label for="dummy2">Value</label></th>		
-    
-  </tr>
-
-  <tr>
-  <td>Claim Id</td>
-  <td>1145</td>
-  </tr>   
-  
-   <tr>
-  <td>Policy Number</td>
-  <td>A147832</td>
-  </tr> 
-
-   <tr>
-  <td>Claimed Amount</td>
-  <td>100000</td>
-  </tr> 
-   
-  <tr>
-  <td>Passed Amount</td>
-  <td>80000</td>
-  </tr> 
-  
-</table>
-            </fieldset>    
-       		 </form>
-    			</div>
-					
-					</li>
-					
-					<li class="sky-tab-content-2">
-						<div id="wrapper1" style="margin-left:6%">
-        <form action="" method="post">
-               <fieldset>
-                <legend>WagonR</legend>
-             <table style="width:100%">
-             <tr><td style="font-family: inherit; font-style:inherit; ; font-size: 1.3em; ">Claim 1</td></tr>
- <tr>
-    <th> <label for="dummy1">Content</label></th>
-    <th> <label for="dummy2">Value</label></th>		
-    
-  </tr>
-
-  <tr>
-  <td>Claim Id</td>
-  <td>2310</td>
-  </tr>   
-  
-   <tr>
-  <td>Policy Number</td>
-  <td>A667532</td>
-  </tr> 
-
-   <tr>
-  <td>Claimed Amount</td>
-  <td>20000</td>
-  </tr> 
-   
-  <tr>
-  <td>Passed Amount</td>
-  <td>20000</td>
-  </tr> 
-  
-</table>
-
-<br><br>
-
-<table style="width:100%">
-<tr><td style="font-family: inherit; font-style:inherit; ; font-size: 1.3em; ">Claim 2</td></tr>
-  <tr>
-    <th> <label for="dummy1">Content</label></th>
-    <th> <label for="dummy2">Value</label></th>		
-    
-  </tr>
-
-  <tr>
-  <td>Claim Id</td>
-  <td>2012</td>
-  </tr>   
-  
-   <tr>
-  <td>Policy Number</td>
-  <td>A784532</td>
-  </tr> 
-
-   <tr>
-  <td>Claimed Amount</td>
-  <td>80000</td>
-  </tr> 
-   
-  <tr>
-  <td>Passed Amount</td>
-  <td>80000</td>
-  </tr> 
-  
-</table>
-
-
-</fieldset>          
-</form>	
-</div>
-</li>
-								
-</ul>
-</div>
-
-
+		
+	
+	
+	
+	
+	<div class="body1" style="margin-left:2em;margin-top:2em;width:80%;float:left;padding:5px;">
 			
-			<!--/ tabs -->
+			
+	
+	
+							
+			<div style=" width:80%;height:100%;float:center;margin-left:7em;border:0px solid #2f889a;padding:0.5em;text-align:center">					
+			<ul class="tabs" data-persist="true">
+            <li><a href="#view1a">Personal Info</a></li>
+            <li><a href="#view2a">Address</a></li>
+            <li><a href="#view3a">Change Password</a></li>
+        	</ul>
+        	<div class="tabcontents">
+            <div id="view1a">
+               <div style=""width:100%;float:left;padding:1em;width:80%;">
+		<div style="float:center;margin-top:1em;">
+	
+	<img style="height:100px;width:100px; border-radius:50%" src="../img/userpic.png"><br />
+	
+		</div>
+		<div style="float:center;">
+		<div style="margin-top:1em;color:#2f889a">
+			<strong>Username: </strong>
+	<span><% out.println(w.getUsername().trim());%></span>
+	<br /><br />
+	<strong>
+	Name: </strong>
+	<span><% out.println(w.getName().trim());%></span>
+	<br /><br />
+	<strong>
+	Insurance Id: </strong>
+	<span>1234567890</span><!-- out.println(w.getUsername().trim()); -->
+	<br /><br />
+	<strong>
+	Email: </strong>
+	<span><% out.println(w.getEmail().trim());%></span>
+		</div>
+		</div>
+     </div> 
+                
+            </div>
+            <div id="view2a">
+			
+             				<div id="wrapper" style="float:center;">
+        <form action="#" method="post">
+            <fieldset>
+               
+                <div>
+                    <input type="text" name="fullname" placeholder="Full Name"/>
+                </div>
+				<div>
+                    <input type="text" name="addressline1" placeholder="Address Line 1"/>
+                </div>
+				<div>
+                    <input type="text" name="addressline2" placeholder="Address Line 2"/>
+                </div>
+                <div>
+                    <input type="text" name="city" placeholder="City"/>
+                </div>
+                <div>
+                    <input type="text" name="state" placeholder="State"/>
+                </div>
+				<div>
+                    <input type="text" name="pincode" placeholder="Pin Code"/>
+                </div>
+                <!--<div>
+                    <input type="text" name="email" placeholder="Email"/>
+                </div>
+                <div>
+                    <div class="small">this textarea is just for test so you can see the placeholder working on textarea as well</div>
+                    <textarea name="message" placeholder="Message"></textarea>
+                </div>  -->  
+                <input type="submit" name="submit" value="Save Address"/>
+            </fieldset>    
+        </form>
+    </div>
+       
+						
+            </div>
+            <div id="view3a">
+                
+					 <div id="wrapper" style="float:center;">
+        <form action="#" method="post">
+            <fieldset>
+               
+                <div>
+                    <input type="password" name="oldpassword" placeholder="Old Password"/>
+                </div>
+				<div>
+                    <input type="password" name="newpassword" placeholder="New Password"/>
+                </div>
+				<div>
+                    <input type="password" name="confirmpassword" placeholder="Confirm Password"/>
+                </div>
+               
+                <!--<div>
+                    <input type="text" name="email" placeholder="Email"/>
+                </div>
+                <div>
+                    <div class="small">this textarea is just for test so you can see the placeholder working on textarea as well</div>
+                    <textarea name="message" placeholder="Message"></textarea>
+                </div>  -->  
+                <input type="submit" name="submit" value="Submit"/>
+            </fieldset>    
+        </form>
+    </div>
+       
+            </div>
+       	 	</div>
+			</div>						
+								
+								
+								
+								
+								
+							
+	
+			
+		
+		
 		</div>
 		
-		<div class="body2" style="margin-right:2%;width:15%;float:right;padding:1px;">
+		
+		<div class="body1" style="margin-right:2em;margin-top:2em;width:15%;float:right;padding:5px;color:-">
 			<aside class="right">
 			
 				<!-- mega menu -->
@@ -264,7 +224,7 @@
 					<!-- about -->
 					<li aria-haspopup="true">
 						<a href="vehiclereport"><i class="fa fa-newspaper-o"></i>Vehicle Report</a>
-						<!--
+						<!-- 
 						<div class="grid-container3">
 							<ul>
 								<li><a href="#"><i class="fa fa-globe"></i>Mission</a></li>
@@ -316,8 +276,8 @@
 					<!--/ about -->
 					
 					<!-- news -->
-					<li aria-haspopup="true" style="background:#2f889a;color:white">
-						<a href="claimhistory"><span style="color:white"><i class="fa fa-book"></i>Claim History</span></a>
+					<li aria-haspopup="true">
+						<a href="claimhistory"><i class="fa fa-book"></i>Claim History</a>
 						<!--
 						<div class="grid-container3">
 							<ul>
@@ -332,7 +292,7 @@
 					
 					<!-- portfolio -->
 					<li aria-haspopup="true">
-						<a href="userpremium"><i class="fa fa-inr"></i>Premium</a>
+						<a href="userpremium"><i class="fa fa-inr"></i>Insurance Premium</a>
 						<!--
 						<div class="grid-container3">
 							<ul>
@@ -348,7 +308,7 @@
 					
 					<!-- blog -->
 					<li>
-						<a href="renew"><i class="fa fa-edit"></i>Renew / Register</a>
+						<a href="renew"><i class="fa fa-edit"></i>Renew / Register Policy</a>
 					</li>
 					<!--/ blog -->
 					
@@ -365,7 +325,7 @@
 				
 			</aside>
 		</div>
-  <div style="position:relative;width:100%;clear:both">
+	  <div style="position:relative;width:100%;clear:both">
   
 <footer class="footer-distributed">
 
@@ -432,7 +392,6 @@
 			</div>
 
 		</footer>
-</div> 
- 
-   </body>
+</div>
+</body>
 </html>
