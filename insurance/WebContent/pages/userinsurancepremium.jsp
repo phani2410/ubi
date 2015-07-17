@@ -48,7 +48,7 @@
 		
 		
 	
- 	 <div style="float:right;margin-top:1.5em;margin-right:8em;"class="dropdown">
+ 	 <div style="float:right;margin-top:1.5em;margin-right:8%;"class="dropdown">
    	 <button class="btn btn-primary dropdown-toggle" style="background-color:#2f889a;border-radius:25px;" type="button" data-toggle="dropdown">Hi,
 	<%
 	try{
@@ -72,12 +72,12 @@
 	<div style="float:right;margin-top:0.5em;margin-right:20%;font-size:1.3em;color:#2f889a">
 			<h2>Better Premium, Better Life</h2>
 		</div>
-		<img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;">
+		<!-- <img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;">   -->
 	</header>	
 		
 	
  
- <div class="body1" style="margin-left:2em;margin-top:2em;width:80%;float:left;padding:5px;">
+ <div class="body1" style="margin-left:2%;margin-top:2em;width:80%;float:left;padding:5px;">
 		
 			<!-- tabs -->
 			<div class="sky-tabs sky-tabs-pos-left sky-tabs-anim-flip sky-tabs-response-to-icons">

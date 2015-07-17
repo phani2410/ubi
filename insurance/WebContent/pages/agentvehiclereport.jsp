@@ -74,12 +74,12 @@
 	<div class="bpbl">
 			<h2>Better Premium, Better Life</h2>
 		</div>
-		<img src="../img/shareinsights.jpg" class="shareimg">
+		<!-- <img src="../img/shareinsights.jpg" class="shareimg"> -->
 	</header>	
 		
 	
  
- <div class="body1" style="margin-left:2em;margin-top:2em;width:80%;float:left;padding:5px;">
+ <div class="body1" style="margin-left:2%;margin-top:2em;width:80%;float:left;padding:5px;">
 		
 			<!-- tabs -->
 			<div class="sky-tabs sky-tabs-pos-left sky-tabs-anim-flip sky-tabs-response-to-icons">
@@ -727,7 +727,7 @@
 					
 					<!-- portfolio -->
 					<li aria-haspopup="true">
-						<a href="agentinsurancepremium"><i class="fa fa-inr"></i>Insurance Premium</a>
+						<a href="agentinsurancepremium"><i class="fa fa-inr"></i>Premium</a>
 						<!--
 						<div class="grid-container3">
 							<ul>

@@ -9,7 +9,7 @@ border-bottom: 1px solid #2f889a;
 
 #tabs li {
   float: left;
-  margin-left:10em;
+  margin-left:0em;
   margin: 0 .5em 0 0;
 }
 
@@ -17,7 +17,7 @@ border-bottom: 1px solid #2f889a;
   position: relative;
   background: #ddd;   /* #ddd */
   background-image: linear-gradient(to bottom, #fff, #ddd);  
-  padding: .7em 3.5em;
+  padding: .7em 3em;
   float: left;
   text-decoration: none;
   color: #2f889a;         /* #fff */

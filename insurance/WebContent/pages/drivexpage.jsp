@@ -29,13 +29,13 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
 		<link rel="stylesheet" href="../css/sky-tabs.css">
 		<link rel="stylesheet" href="../css/formstyle.css">
-		<link rel="stylesheet" href="../css/sky-mega-menu.css">
+		<!-- <link rel="stylesheet" href="../css/sky-mega-menu.css"> -->
 		
 		
 		<!-- css for menu  -->
 		  <!--<link rel="stylesheet" href="css/demo.css">-->
 		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"> -->
-		<!-- <link rel="stylesheet" href="css/sky-mega-menu.css">  -->
+		<link rel="stylesheet" href="../css/sky-mega-menu1.css">
 		<link rel="stylesheet" href="../css/sky-mega-menu-red.css">
 	
 	
@@ -89,7 +89,7 @@
 	<div style="float:right;margin-top:0.5em;margin-right:25%;font-size:1.3em;color:#2f889a">
 			<h2>Better Premium, Better Life</h2>
 		</div>
-		<img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;">
+		<!-- <img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;"> -->
 	</header>	
 			
 			
@@ -239,47 +239,47 @@
 			<div style="float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
 			<img src="../img/flag.png">
 			</div>
-			<div style="float:left;width:33%;padding:1px;text-align:left;padding:0.5em 0em;">
-			Activity
+			<div style="color:#2f889a;float:left;width:33%;padding:1px;text-align:left;padding:0.5em 0em;">
+			Driving Skills
 			</div>
-			<div style="float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
-			Level
+			<div style="color:#2f889a;float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
+			5 / 10
 			</div>
 			</div>
 
 			<div style="clear:both;border-top:1px solid #2f889a;">
 			<div style="float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
-			<img src="../img/flag.png">
+			<img src="../img/odameter.png">
 			</div>
-			<div style="float:left;width:33%;padding:1px;text-align:left;padding:0.5em 0em;">
-			Activity
+			<div style="color:#2f889a;float:left;width:33%;padding:1px;text-align:left;padding:0.5em 0em;">
+			Speed Control
 			</div>
-			<div style="float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
-			Level
-			</div>
-			</div>
-			
-			<div style="clear:both;border-top:1px solid #2f889a;">
-			<div style="float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
-			<img src="../img/flag.png">
-			</div>
-			<div style="float:left;width:33%;padding:1px;text-align:left;padding:0.5em 0em;">
-			Activity
-			</div>
-			<div style="float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
-			Level
+			<div style="color:#2f889a;float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
+			3 / 10
 			</div>
 			</div>
 			
 			<div style="clear:both;border-top:1px solid #2f889a;">
 			<div style="float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
-			<img src="../img/flag.png">
+			<img src="../img/road.png">
 			</div>
-			<div style="float:left;width:33%;padding:1px;text-align:left;padding:0.5em 0em;">
-			Activity
+			<div style="color:#2f889a;float:left;width:33%;padding:1px;text-align:left;padding:0.5em 0em;">
+			Road Safety
 			</div>
+			<div style="color:#2f889a;float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
+			6/10
+			</div>
+			</div>
+			
+			<div style="clear:both;border-top:1px solid #2f889a;">
 			<div style="float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
-			Level
+			<img src="../img/economy.png">
+			</div>
+			<div style="color:#2f889a;float:left;width:33%;padding:1px;text-align:left;padding:0.5em 0em;">
+			Economic Driving
+			</div>
+			<div style="color:#2f889a;float:left;width:33%;padding:1px;text-align:center;padding:0.5em 0em;">
+			7 / 10
 			</div>
 			</div>
 			
@@ -297,7 +297,7 @@
 				
 			
 
-		<div style=" width:100%;height:100%;float:center;border:0px solid red;padding:1px;text-align:center">					
+		<div style=" width:100%;height:100%;float:center;border:0px solid red;padding:1px;text-align:center;margin-top:1em">					
 			<ul class="tabs" data-persist="true">
             <li><a href="#view1b"> My Rank </a></li>
             <li><a href="#view2b"> Leader Board</a></li>

@@ -78,7 +78,7 @@
 	<div style="float:right;margin-top:0.5em;margin-right:20%;font-size:1.3em;color:#2f889a">
 			<h2>Better Premium, Better Life</h2>
 		</div>
-		<img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;">
+		<!-- <img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;"> -->
 	</header>	
 		
 		
@@ -210,7 +210,7 @@
 		</div>
 		
 		
-		<div class="body1" style="margin-right:2em;margin-top:2em;width:15%;float:right;padding:5px;color:-">
+		<div class="body2" style="margin-right:2%;width:15%;float:right;padding:1px;">
 			<aside class="right">
 			
 				<!-- mega menu -->
@@ -292,7 +292,7 @@
 					
 					<!-- portfolio -->
 					<li aria-haspopup="true">
-						<a href="userpremium"><i class="fa fa-inr"></i>Insurance Premium</a>
+						<a href="userpremium"><i class="fa fa-inr"></i>Premium</a>
 						<!--
 						<div class="grid-container3">
 							<ul>
@@ -308,7 +308,7 @@
 					
 					<!-- blog -->
 					<li>
-						<a href="renew"><i class="fa fa-edit"></i>Renew / Register Policy</a>
+						<a href="renew"><i class="fa fa-edit"></i>Renew / Register</a>
 					</li>
 					<!--/ blog -->
 					

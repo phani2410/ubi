@@ -72,12 +72,12 @@
 	<div style="float:right;margin-top:0.5em;margin-right:20%;font-size:1.3em;color:#2f889a">
 			<h2>Better Premium, Better Life</h2>
 		</div>
-		<img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;">
+		<!--  <img src="../img/shareinsights.jpg" style="padding-left:4.5em;padding-top:1em;"> -->
 	</header>	
 		
 	
  
- <div class="body1" style="margin-left:2em;margin-top:2em;width:80%;float:left;padding:5px;">
+ <div class="body1" style="margin-left:2%;margin-top:2em;width:80%;float:left;padding:5px;">
 		
 			<!-- tabs -->
 			<div class="sky-tabs sky-tabs-pos-left sky-tabs-anim-flip sky-tabs-response-to-icons">
@@ -392,7 +392,7 @@
 			<!--/ tabs -->
 		</div>
 		
-		<div class="body1" style="margin-right:2em;margin-top:2em;width:15%;float:right;padding:5px;">
+		<div class="body2" style="margin-right:2%;width:15%;float:right;padding:1px;">
 			<aside class="right">
 			
 				<!-- mega menu -->
@@ -406,85 +406,21 @@
 					<!-- about -->
 					<li aria-haspopup="true">
 						<a href="agentvehiclereport"><i class="fa fa-newspaper-o"></i>Vehicle Report</a>
-						<!-- 
-						<div class="grid-container3">
-							<ul>
-								<li><a href="#"><i class="fa fa-globe"></i>Mission</a></li>
-								<li aria-haspopup="true">
-									<a href="#"><i class="fa fa-group"></i>Our Team</a>
-									
-									<div class="grid-container3">
-										<ul>
-											<li aria-haspopup="true">
-												<a href="#"><i class="fa fa-male"></i>Markus Fisher</a>
-												<div class="grid-container3">
-													<ul>
-														<li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
-														<li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
-														<li><a href="#"><i class="fa fa-comments"></i>Contacts</a></li>
-													</ul>
-												</div>
-											</li>
-											<li aria-haspopup="true">
-												<a href="#"><i class="fa fa-female"></i>Leyla Sparks</a>
-												<div class="grid-container3">
-													<ul>
-														<li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
-														<li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
-														<li><a href="#"><i class="fa fa-comments"></i>Contacts</a></li>
-													</ul>
-												</div>
-											</li>
-											<li aria-haspopup="true">
-												<a href="#"><i class="fa fa-male"></i>Gleb Ismailov</a>
-												<div class="grid-container3">
-													<ul>
-														<li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
-														<li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
-														<li><a href="#"><i class="fa fa-comments"></i>Contacts</a></li>
-													</ul>
-												</div>
-											</li>
-											<li><a href="#"><i class="fa fa-female"></i>Viktoria Gibbers</a>
-										</li>
-										</ul>
-									</div>
-								</li>
-								<li><a href="#"><i class="fa fa-trophy"></i>Rewards</a></a></li>
-								<li><a href="#"><i class="fa fa-certificate"></i>Certificates</a></a></li>
-							</ul>
-						</div>-->
+					
 					</li>
 					<!--/ about -->
 					
 					<!-- news -->
 					<li aria-haspopup="true">
 						<a href="agentclaimhistory"><i class="fa fa-book"></i>Claim History</a>
-						<!--
-						<div class="grid-container3">
-							<ul>
-								<li><a href="#"><i class="fa fa-check"></i>Company</a></li>
-								<li><a href="#"><i class="fa fa-check"></i>Products</a></li>
-								<li><a href="#"><i class="fa fa-check"></i>Specials</a></li>
-							</ul>
-						</div>
-						-->
+						
 					</li>
 					<!--/ news -->
 					
 					<!-- portfolio -->
 					<li aria-haspopup="true" style="">
-						<a href="agentinsurancepremium"><i class="fa fa-inr"></i>Insurance Premium</a>
-						<!--
-						<div class="grid-container3">
-							<ul>
-								<li><a href="#"><i class="fa fa-lemon-o"></i>Logos</a></li>
-								<li><a href="#"><i class="fa fa-globe"></i>Websites</a></li>
-								<li><a href="#"><i class="fa fa-th-large"></i>Branding</a></li>
-								<li><a href="#"><i class="fa fa-picture-o"></i>Illustrations</a></li>
-							</ul>
-						</div>
-						-->
+						<a href="agentinsurancepremium"><i class="fa fa-inr"></i>Premium</a>
+						
 					</li class="right">
 					<!--/ portfolio -->
 					
